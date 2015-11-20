@@ -1,0 +1,27 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Install Steps
+email: love0.0chen@gmail.com
+description: > # The project aims at provide a place show you the steps that how to install a application.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://www.installsteps.com" # the base hostname & protocol for your site
+twitter_username: jihgao
+github_username:  jihgao
+
+# Build settings
+markdown: kramdown
+highlighter: pygments
+
+
+gems:
+- jekyll-mentions
+- jemoji
+- jekyll-redirect-from
+- jekyll-sitemap
+- jekyll-feed
